@@ -54,7 +54,7 @@
   $ npx prisma migrate dev
 
   #Execute
-  $ npm run dev
+  $ npm run start
 
 ```
 
