@@ -66,9 +66,9 @@ export function WidgetForm() {
         Feito com ♥ por{" "}
         <a
           className="underline underline-offset-2"
-          href="https://igorthiery.com.br"
+          href="https://nlw-return-impulse-main.vercel.app/"
         >
-          Igor Thierry
+          Arthut Lacerda
         </a>
       </footer>
     </div>
