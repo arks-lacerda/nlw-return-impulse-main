@@ -5,16 +5,16 @@ const transport = nodemailer.createTransport({
   host: "smtp.mailtrap.io",
   port: 2525,
   auth: {
-    user: "be266352e79130",
-    pass: "0e62945aca020b",
-  },
+    user: "1c0e74e0e5d81b",
+    pass: "2c46337a479f5b"
+  }
 });
 
 export class NodemailerMailAdapter implements IMailAdapter {
   async sendMail({ subject, body }: SendMailData) {
     await transport.sendMail({
       from: "Equipe Feedget <oi@feedget.com>",
-      to: "Igor Thierry <igorthierry15@gmail.com>",
+      to: "Arthur Lacerda <arthur.srl@gmail.com>",
       subject,
       html: body,
     });
